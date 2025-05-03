@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js" defer></script>
+
+    <!--meta property="og:title" content="Заголовок страницы в OG">
+    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/" -->
+    <style>
+      .button {
+    background-image: url("../img/lang/eng.png") ; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: url('../img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    background-size: cover;
+}
+
+.button:hover {
+  transform: scale(1.05);
+    transform: translateY(-3px);
+}
+
+.button5 {border-radius: 50%;}
+
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="index.html">Main</a></li>
+            <li class="link"><a href="projects.html">Projects</a></li>
+            <li class="link"><a href="contacts.html">Contacts</a></li>
+          
+        </ul>
+    </nav> <br> <br><br><br><br>
+    <h1 class = "mainnn">Personal portfolio site </h1> 
+    <div class="all"> 
+      <h2 class = "hders" > </h2> 
+      <h2 class = "hders" >A little bit about me:</h2> 
+      <p class = "describe">Greetings, I'm Anya - a beginning developer. I love rainy weather and cats most of all :).  I've been in the It-sphere practically since childhood and have already tried myself a bit in several areas. At the moment I am actively developing applications in C++ </p>
+      <h2 class = "hders" >What languages do I know?:</h2> 
+      <p class = "describe"> Programming languages I am able to use: C++, C#, Qt, php. </p>
+      <h2 class = "hders" >Education:</h2> 
+      <p class = "describe">Internet: Videos, forums, articles. Studying in IT-cube and KiberOne </p>
+      <p class="line"> </p>
+      <a href="https://github.com/anyatomik"><img class="linkImg" src="../img/github-mark.png"></a>
+    </div>
+
+    <button id="lang-button" class="button button5" onclick="location.href='../index.html'"> </button>
+    
+    <br><br>
+    
+    <!--footer class = "fut">
+      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+    </footer!-->
+    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
+  </body>
+</html>

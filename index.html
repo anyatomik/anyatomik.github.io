@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <!--meta property="og:title" content="Заголовок страницы в OG">
+    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/" -->
+    <style>
+      .button {
+    background-image: url("img/lang/rus.png") ; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    background-size: cover;
+}
+
+.button:hover {
+  transform: scale(1.05);
+    transform: translateY(-3px);
+}
+
+.button5 {border-radius: 50%;}
+
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="index.html">Главная</a></li>
+            <li class="link"><a href="projects.html">Проекты</a></li>
+            <li class="link"><a href="contacts.html">Контакты</a></li>
+          
+        </ul>
+    </nav> <br> <br><br><br><br>
+    <h1 class = "mainnn">Личный сайт-портфолио </h1> 
+    <div class="all">
+      <h2 class = "hders" > </h2> 
+      <h2 class = "hders" >Немного обо мне:</h2> 
+      <p class = "describe">Приветствую! Я, Аня - начинающий разработчик. Больше всего люблю дождливую погоду и кошек :).  В it сфере практически с детства и уже немного попробовала себя в нескольких областях. В настоящий момент активно работаю над разработкой приложений на C++ </p>
+      <h2 class = "hders" >Какими языками я владею?:</h2> 
+      <p class = "describe"> Языки программирования, которыми я владею: С++, С#, Qt, php. </p>
+      <h2 class = "hders" >Обучение:</h2> 
+      <p class = "describe">Интернет: Видео, форумы, статьи. Обучаюсь в IT-кубе и KiberOne </p>
+      <p class="line"> </p>
+      <a href="https://github.com/anyatomik"><img class="linkImg" src="img/github-mark.png"></a>
+    </div>
+
+    <button id="lang-button" class="button button5" onclick="location.href='en/index.html'"> </button>
+    <br><br>
+    
+    
+    <!--footer class = "fut">
+      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+    </footer!-->
+    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
+  </body>
+</html>

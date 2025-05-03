@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    
+}
+body{
+    width: 100%;
+    max-width: 800px;
+    /*text-align: center;*/
+    margin: auto;
+    min-height: 100vh;
+    background-color:#cfc2b9;
+     
+
+}
+
+
+body, html {
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+  
+   
+  }
+
+
+.all {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 15px;
+    /*box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);*/
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 1;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background-color: #c6b8ae;
+    border-bottom: 1px solid #d0c0b7;
+    margin-bottom: 100px;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+}
+
+.link a{
+    color: #333;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+}
+
+
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+
+.describe {
+    
+    color: #707070;
+    margin-bottom: 20px;
+
+}
+
+
+
+.hders {
+    color:#1c1c1c;
+    margin-bottom: 10px;
+    
+}
+
+.mainnn {
+    color:#1c1c1c;
+    
+    text-align: center ;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #9d8d83;
+    font-size: 40px;
+    
+}
+
+#lang-button {
+    position: fixed;
+    z-index: 100;
+    bottom: 20px;
+    right: 20px;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    
+}
+
+
+
+/*/////////////////*/
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.proj-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.project-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #eaeaea;
+    padding: 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+}
+
+.project-link:hover{
+    background-image: url(img/AstraLearn3.png) ;
+    transform: scale(1.05);
+    transform: translateY(-3px);
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+}
+
+.project-link:hover .project-title {color: #d8d8d8;} 
+.project-link:hover .project-description {color: #f1f1f1;} 
+.project-content {
+    display: flex;
+    flex-direction: column;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    
+}
+
+
+
+
+.project-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.project-description {
+    font-size: 20px;
+    color: #777;
+    margin-top: 5px;
+}
+
+
+
+.arrow {
+    font-size: 24px;
+    color: #777;
+}
+
+/*//////////////////////////*/
+
+.itemImg {
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+    position: static;
+    opacity: 100;
+    animation: none;
+    pointer-events: none;
+}
+
+.line {
+    border-bottom: 1px solid #b2b2b2;
+    margin-bottom: 5px;
+}
+
+.linkImg {
+    margin-top: 10px;
+    width: 5%;
+  height: auto;
+}
+
+.submit {
+    border-radius: 10px;
+    border-color: transparent;
+    color: rgb(30, 30, 30);
+    transition: .2s linear;
+    background: rgb(220, 206, 174);
+    vertical-align: bottom; 
+    
+    font-size: 1.2rem;
+    
+  margin-left: 31%;
+  margin-top: 15px;
+    width: 35%;
+    height: 60px;
+    
+}
+
+.submit:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px rgb(162, 147, 113);
+}
+.contact_form {
+    position: relative;
+   /* margin-top: 1rem;*/
+    width: 45em;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.all-cnt {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 15px;
+    /*box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);*/
+}
+
+/*form div {
+    margin-top: 1rem;
+}*/
+ 
+/*label, input, textarea, button, select{
+    font-size: 1.3rem;
+    line-height: 1.2
+}*/
+ 
+
+
+ 
+
+
+.button-container {
+   
+    font-size: 1.2rem;
+    justify-content: center; /* Центрирование по горизонтали */
+    
+}
+
+label, input, textarea {
+    font-size: 1.2rem;
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */ 
+  /*border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px solid #ccc; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.hders-c {
+    color:#424242;
+   
+    
+}
+.linu1 {
+    border-top: 10px;
+}
+@media (max-width: 768px) {
+    /* Контейнер на планшетах и мобильных */
+    .container {
+        padding: 15px;
+    }
+
+    /* Заголовок уменьшается для мобильных устройств */
+    .header h1 {
+        font-size: 20px;
+    }
+
+    /* Описание также уменьшается */
+    .description {
+        font-size: 14px;
+    }
+
+    /* Карточки проектов становятся вертикальными */
+    .project-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Стрелка перемещается вниз */
+    .arrow {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .linkImg {
+        margin-top: 10px;
+        width: 7%;
+      height: auto;
+    }
+    #lang-button {
+       
+        
+        bottom: 20px;
+        right: 20px;
+  
+        z-index: 150;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Заголовок на очень маленьких экранах */
+    .header h1 {
+        font-size: 18px;
+    }
+
+    /* Описание на маленьких экранах */
+    .description {
+        font-size: 12px;
+    }
+
+    /* Контент проектов на мобильных */
+  
+    .link a{
+      
+      
+        padding: 10px 20px;
+        margin: 0 0px;
+       
+       
+    }
+  
+   
+}

@@ -1,0 +1,8 @@
+<!-- contact section -->
+<section class="contact-section">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>

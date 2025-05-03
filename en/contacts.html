@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js" defer></script>
+    <script src="../email.js" defer></script>
+
+    <!--meta property="og:title" content="Заголовок страницы в OG">
+    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/" -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<style>
+  .button {
+background-image: url("../img/lang/eng.png") ; /* Green */
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: url('../img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+background-size: cover;
+}
+
+.button:hover {
+transform: scale(1.05);
+transform: translateY(-3px);
+}
+
+.button5 {border-radius: 50%;}
+
+</style>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9wLdLaLKYhSyZ4l4h",
+      });
+   })();
+</script>
+  </head>
+  <body>
+  
+    <nav class="navbar">
+      <ul class="link-group">
+          <li class="link"><a href="index.html">Main</a></li>
+          <li class="link"><a href="projects.html">Projects</a></li>
+          <li class="link active"><a href="contacts.html">Contacts</a></li>
+        
+      </ul>
+  </nav> <br> <br><br><br><br>
+    <main>
+      <h1 class = "mainnn">Contacts </h1> 
+      <section class="contact_section all-cnt" >
+          
+        <form action="" method="get" class="contact_form" >
+          <div class="button-container">
+             
+            <label><h3 class = "hders-c" >Your name:</h3>
+                <input
+                    type="text"
+                    name="name" id="name" placeholder="What should I call you?">
+                  
+            </label>
+            <label>
+              <h3 class = "hders-c" >Email:</h3>
+                <input
+                    type="email"
+                    name="email" id="email" placeholder="example@gmail.com">
+               
+            </label>
+      
+        <label>
+          <h3 class = "hders-c" >Message:</h3>
+            <textarea name="comment" id="message"  placeholder="Message"></textarea>
+          
+        </label>
+        
+      </form>
+          <button class="submit" type="submit"onclick="sendMail()">
+            Send
+        </button>
+      </div> <br>
+      <p class="line line1"> </p> 
+      <p class = “non-describe”> Send your message/question and I will reply to you as soon as possible! </p> <br>
+      <p class = "describe"> Attention! Please fill in all data for correctness, so that I could understand your message clearly and reply to the right e-mail </p>
+    </section>
+    </main>
+
+    <button id="lang-button" class="button button5" onclick="location.href='../contacts.html'"> </button>
+    <br><br>
+    
+    <!--footer class = "fut">
+      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+    </footer!-->
+    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
+  </body>
+</html>
