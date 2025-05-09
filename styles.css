@@ -18,7 +18,7 @@ body{
 
 
 body, html {
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
   
    
   }
@@ -45,7 +45,7 @@ body, html {
     background-color: #c6b8ae;
     border-bottom: 1px solid #d0c0b7;
     margin-bottom: 100px;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
 }
 
 .link a{
@@ -58,13 +58,13 @@ body, html {
     line-height: 80px;
     transition: .5s;
     font-size: 20px;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
 }
 
 .link-group{
     list-style: none;
     display: flex;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
 }
 
 
@@ -103,7 +103,7 @@ body, html {
     z-index: 100;
     bottom: 20px;
     right: 20px;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
     
 }
 
@@ -137,14 +137,14 @@ body, html {
     border-radius: 10px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
 }
 
 .project-link:hover{
-    background-image: url(en/img/AstraLearn3.png) ;
+    background-image: url(img/AstraLearn3.png) ;
     transform: scale(1.05);
     transform: translateY(-3px);
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
 }
 
 .project-link:hover .project-title {color: #d8d8d8;} 
@@ -152,7 +152,7 @@ body, html {
 .project-content {
     display: flex;
     flex-direction: column;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
     
 }
 
@@ -251,7 +251,7 @@ body, html {
 
      .button {
         display: inline-block;
-    background-image: url("en/img/lang/rus.png") ; /* Green */
+    background-image: url("img/lang/rus.png") ; /* Green */
     border: none;
     color: white;
     padding: 20px 20px;
@@ -260,7 +260,7 @@ body, html {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
     background-size: cover;
     border-radius: 50%;
 }
@@ -272,7 +272,7 @@ body, html {
 
 .button5 {
     display: inline-block;
-    background-image: url("en/img/lang/eng.png") ; /* Green */
+    background-image: url("img/lang/eng.png") ; /* Green */
     border: none;
     color: white;
     padding: 20px 20px;
@@ -281,7 +281,7 @@ body, html {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: url('en/img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
+    cursor: url('img/cursors/cur2/eggcat_cursor_chonk.cur'), auto;
     background-size: contain;
     border-radius: 50%;
 }
