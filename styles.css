@@ -251,11 +251,11 @@ body, html {
 
      .button {
         display: inline-block;
-    background-image: url("img/lang/rus.png") ; /* Green */
+    background-image: url("en/img/lang/rus.png") ; /* Green */
     border: none;
     color: white;
     padding: 20px 20px;
-    text-align: center;
+   /* text-align: center;*/
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
